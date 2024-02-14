@@ -20,7 +20,12 @@ function AppHeader() {
   const navigate = useNavigate();
 
   const onMenuClick = (item) => {
-    navigate(`/${item.key}`);
+    if (item.key === "mission-statement") {
+      // Navigate to mission-statement
+      navigate('/mission-statement');
+    } else {
+      navigate(`/${item.key}`);
+    }
   };
   return (
     <div className="appHeader">
@@ -34,56 +39,63 @@ function AppHeader() {
             key: "",
           },
           {
-            label: "Men",
-            key: "men",
+            label: "About Us",
+            key: "about",
             children: [
               {
-                label: "Men's Shirts",
-                key: "mens-shirts",
+                label: "Our Mission",
+                key: "mission-statement",
               },
               {
-                label: "Men's Shoes",
-                key: "mens-shoes",
-              },
-              {
-                label: "Men's Watches",
-                key: "mens-watches",
+                label: "What We Offer",
+                key: "what-we-offer",
               },
             ],
           },
           {
-            label: "Women",
-            key: "women",
+            label: "Events",
+            key: "events",
             children: [
               {
-                label: "Women's Dresses",
-                key: "womens-dresses",
+                label: "Browse all events",
+                key: "browse-events",
               },
               {
-                label: "Women's Shoes",
-                key: "womens-shoes",
+                label: "Book an event",
+                key: "book-events",
               },
               {
-                label: "Women's Watches",
-                key: "womens-watches",
-              },
-              {
-                label: "Women's Bags",
-                key: "womens-bags",
-              },
-              {
-                label: "Women's Jewellery",
-                key: "womens-jewellery",
+                label: "View my events",
+                key: "view-events",
               },
             ],
           },
           {
-            label: "Fragrances",
+            label: "Community",
+            key: "community",
+            children: [
+              {
+                label: "Latest Articles",
+                key: "latest-articles",
+              },
+              {
+                label: "SilverThreads",
+                key: "silver-threads",
+              },
+              {
+                label: "Weekly Gatherings",
+                key: "weekly-gatheringa",
+              },
+            ],
+          },
+
+          {
+            label: "Partners",
             key: "fragrances",
           },
         ]}
       />
-      <Typography.Title>Aamir Store</Typography.Title>
+      <Typography.Title>Silver Tix</Typography.Title>
       <AppCart />
     </div>
   );

@@ -1,0 +1,41 @@
+/* Mission.css */
+.mission-container {
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%
+  }
+  
+  .logo-container {
+    flex-direction: column; /* Stack items vertically */
+    margin-bottom: 20px; /* Space between navbar and logo */
+  }
+  
+  .logo {
+    max-width: 180px; /* Adjust as needed */
+  }
+  
+  .left-content {
+    width: 100%; /* Take up full width */
+  }
+  
+  .text-container {
+    max-width: 500px; /* Adjust as needed */
+    text-align: left;
+    padding: 20px;
+    padding-top: 120px; /* Add top padding as needed */
+    
+    
+
+  }
+  
+  .image-container {
+    flex: 1; /* Take up remaining space */
+    text-align: right; /* Align image to the right */
+  }
+  
+  .full-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
