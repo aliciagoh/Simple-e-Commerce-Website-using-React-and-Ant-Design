@@ -1,0 +1,22 @@
+/* ArticleDetails.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.article-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  margin: 0; /* Add margin: 0 to ensure no default margin */
+}
+
+/* Adjust the styling for the Card component */
+.ant-card {
+  width: 100%;
+  margin: 0; /* Add margin: 0 to ensure no default margin */
+}
+
+/* Add additional styles as needed */

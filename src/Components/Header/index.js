@@ -75,8 +75,8 @@ function AppHeader() {
             key: "community",
             children: [
               {
-                label: "Latest Articles",
-                key: "latest-articles",
+                label: "Latest Happenings",
+                key: "latest-happenings",
               },
               {
                 label: "SilverThreads",

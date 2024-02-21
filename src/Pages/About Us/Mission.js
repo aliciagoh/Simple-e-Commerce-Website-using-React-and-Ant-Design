@@ -1,7 +1,7 @@
 // Mission.js
 import React from 'react';
 import logo from '/Users/aliciagoh/Y4S2/FYP Silvertix/Website-Base/src/assets/SilverTix Logo.png'; // Replace with the actual path to your logo image
-import fullImage from '/Users/aliciagoh/Y4S2/FYP Silvertix/Website-Base/src/assets/active-elderly-mission-statement.svg'; // Replace with the actual path to your full-sized image
+import fullImage from '../../assets/active-elderly-mission-statement.svg'; // Replace with the actual path to your full-sized image
 import './Mission.css';
 
 const Mission = () => {
