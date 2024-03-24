@@ -23,7 +23,7 @@ const LatestHappenings = () => {
                 title={article.title}
                 description={<TruncateText text={article.content} maxLines={2} />}
               />
-              <Link to={`/latest-happenings/${article.id}`}>
+              <Link to={`/latest-happenings/${article.id}`} className="read-more-link">
                 Read More
               </Link>
             </Card>
@@ -42,6 +42,7 @@ const TruncateText = ({ text, maxLines }) => {
     WebkitBoxOrient: 'vertical',
     WebkitLineClamp: maxLines,
     maxHeight: '3em', // Adjust this value based on your font size and line height
+    marginBottom: '10px', // Additional bottom margin
   };
 
   return <div style={style}>{text}</div>;

@@ -20,9 +20,11 @@
 .productsContainer{
     padding: 8px;
 }
-.appMenu{
+.appMenu {
     border: none;
-}
+    margin: 0 px; /* Adjust margin to increase horizontal space */
+    min-width: 420px; /* Set a minimum width to accommodate menu items */
+  }
 .pageContent{
     display: flex;
     flex: 1;

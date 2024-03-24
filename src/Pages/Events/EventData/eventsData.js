@@ -14,7 +14,7 @@ const events = [
   {
     id: 1,
     name: 'Yoga by the Bay',
-    dateTime: '2024-02-25 14:00:00',
+    dateTime: '2024-04-25 14:00',
     description: 'Join our yoga session for a rejuvenating experience, promoting physical and mental well-being.',
     imageUrl: eventlisting1,
     detailedDescription: 'test123'
@@ -22,27 +22,27 @@ const events = [
   {
     id: 2,
     name: 'Chess Face Off!',
-    dateTime: '2024-02-25 14:00:00',
+    dateTime: '2024-06-25 17:00',
     description: 'Sharpen your strategic skills in our chess event, where players of all levels are welcome to participate.',
     imageUrl: eventlisting2,
   },
   {
     id: 3,
     name: 'Book Club',
-    dateTime: '2024-02-25 14:00:00',
+    dateTime: '2024-07-25 10:00',
     description: 'Immerse yourself in lively literary discussions and connect with fellow book enthusiasts in our book club event.',
     imageUrl: eventlisting3,
   },
   {
     id: 4,
-    name: 'Event 4',
-    dateTime: '2024-02-25 14:00:00',
-    description: 'Description for Event 1.',
+    name: 'Tranquil Tea Time',
+    dateTime: '2024-02-25 16:00',
+    description: 'Indulge in the soothing embrace of tranquility with our "Tranquil Tea Time" session tailored exclusively for elders.',
     imageUrl: eventlisting4,
   },
   {
     id: 5,
-    name: 'Event 5',
+    name: 'Book Club Session 2',
     dateTime: '2024-02-25 14:00:00',
     description: 'Description for Event 1.',
     imageUrl: eventlisting5,

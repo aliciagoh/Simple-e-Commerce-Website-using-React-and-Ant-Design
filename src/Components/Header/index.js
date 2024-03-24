@@ -84,7 +84,7 @@ function AppHeader() {
               },
               {
                 label: "Weekly Gatherings",
-                key: "weekly-gatheringa",
+                key: "weekly-gatherings",
               },
             ],
           },

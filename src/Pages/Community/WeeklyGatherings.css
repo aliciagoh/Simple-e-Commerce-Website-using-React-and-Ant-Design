@@ -1,0 +1,14 @@
+/* WeeklyGatherings.css */
+.weekly-gatherings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Center-align text within the container */
+  }
+  
+  .weekly-gatherings-table {
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limit the maximum width if desired */
+  }
+  
