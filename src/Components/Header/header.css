@@ -1,0 +1,9 @@
+.appHeader {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 60px; /* Adjust the height as needed */
+    margin: 0; /* Remove margin */
+  }

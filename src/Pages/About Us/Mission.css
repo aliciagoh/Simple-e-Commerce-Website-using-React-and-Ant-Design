@@ -1,33 +1,26 @@
 /* Mission.css */
 .mission-container {
     display: flex;
-    background-color: white;
+    background-color: pink;
     height: 100%;
-    width: 100%
+    width: 100%;
+    align-items: center; /* Vertically align items */
   }
   
-  .logo-container {
-    flex-direction: column; /* Stack items vertically */
-    margin-bottom: 20px; /* Space between navbar and logo */
-  }
-  
-  .logo {
-    max-width: 180px; /* Adjust as needed */
-  }
-  
-  .left-content {
-    width: 100%; /* Take up full width */
-  }
-  
-  .text-container {
-    max-width: 500px; /* Adjust as needed */
-    text-align: left;
-    padding: 20px;
-    padding-top: 120px; /* Add top padding as needed */
-    
-    
+  /* Mission.css */
+.text-container {
+  max-width: 40%; /* Adjust as needed */
+  max-height: 50%;
+  text-align: left;
+  padding: 30px;
+  border-radius: 20px; /* Apply border-radius to create curved corners */
+  background-color: #f0f0f0; /* Set the background color to grey */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect for depth */
+  display: inline-block; /* Make the container fit snugly around the text */
+  flex:1;
+  margin: 0 40px;
+}
 
-  }
   
   .image-container {
     flex: 1; /* Take up remaining space */

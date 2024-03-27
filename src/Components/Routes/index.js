@@ -11,6 +11,10 @@ import NewPostForm from "../../Pages/Community/NewPostForm";
 import SilverThreads from "../../Pages/Community/SilverThreads";
 import WeeklyGatherings from "../../Pages/Community/WeeklyGatherings";
 import HomePage from "../../Pages/Home/Home";
+import Login from "../../Pages/Login/Login";
+import Register from "../../Pages/Login/Register";
+import ProfileSetup from "../../Pages/Profile/ProfileSetup";
+import ViewProfile from "../../Pages/Profile/ViewProfile";
 
 function AppRoutes() {
   return (
@@ -25,7 +29,11 @@ function AppRoutes() {
       <Route path="/silver-threads" element={<SilverThreads />} />
       <Route path="/silver-threads/new" element={<NewPostForm />} />
       <Route path="/weekly-gatherings" element={<WeeklyGatherings />} />
-      
+      <Route path="/login" element={<Login />} /> 
+      <Route path="/register" element={<Register />} /> 
+      <Route path="/profile-setup" element={<ProfileSetup />} />
+      <Route path="/view-profile" element={<ViewProfile />} />
+
     </Routes>
   );
 }

@@ -94,7 +94,6 @@ function WeeklyGatherings() {
 
   // Function to handle booking
   const handleBooking = (record) => {
-    // Implement your booking logic here, such as opening a modal for booking
     Modal.info({
       title: "Booking Confirmation",
       content: (

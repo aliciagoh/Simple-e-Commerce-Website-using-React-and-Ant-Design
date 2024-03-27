@@ -4,7 +4,7 @@ import { Row, Col, Card, Button } from 'antd';
 import { Link } from 'react-router-dom';
 import events from './eventsData';
 
-const EventList = () => {
+const EventList = ({ onViewEventClick }) => {
   return (
     <div>
       <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} justify="left">
@@ -21,11 +21,9 @@ const EventList = () => {
               />
               <p>Date and Time: {event.dateTime}</p>
               <p>Description: {event.description}</p>
-              <Link to={`/browse-events/event/${event.id}`}>
-                <Button type="primary">
-                  View Event
-                </Button>
-              </Link>
+              <Button type="primary" onClick={() => onViewEventClick(event)}>
+                <Link to={`/browse-events/event/${event.id}`}>View Event</Link>
+              </Button>
             </Card>
           </Col>
         ))}

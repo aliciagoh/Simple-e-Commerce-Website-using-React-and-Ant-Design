@@ -7,13 +7,10 @@ const NewPostForm = ({ addPost }) => {
   const navigate = useNavigate();
 
   const handleSubmit = (values) => {
-    // Call addPost to update posts in SilverThreads
     addPost(values);
 
-    // Clear form fields after submission
     form.resetFields();
 
-    // Navigate back to SilverThreads
     navigate('/silver-threads');
   };
 
