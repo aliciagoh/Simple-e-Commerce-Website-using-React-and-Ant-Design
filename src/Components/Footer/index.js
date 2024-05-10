@@ -10,10 +10,10 @@ function AppFooter() {
         Terms & Conditions
       </Typography.Link>
       <Typography.Link href="https://www.google.com" target={"_blank"}>
-        Return Policy
+        FAQ
       </Typography.Link>
       <Typography.Link href="tel:+123456789" target={"_blank"}>
-        +123456789
+        Contact Us
       </Typography.Link>
     </div>
   );
